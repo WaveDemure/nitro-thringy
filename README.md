@@ -18,3 +18,7 @@ docker build -t nitro-gen-site .
 ```bash
 docker run -p 8080:80 nitro-gen-site
 ```
+and its running at
+```
+http://localhost:8080/
+```
