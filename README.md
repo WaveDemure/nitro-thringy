@@ -4,19 +4,9 @@
 
 First install docker 
 
-### Step 1. cloning this repo
+### Step 1. New auto creator lol
 ```bash
-git clone https://github.com/WaveDemure/nitro-thringy
-cd nitro-thringy
-```
-### Step 2. docker image :)
-```bash
-docker build -t nitro-gen-site .
-```
-
-### step 3. run docker image
-```bash
-docker run -p 8080:80 nitro-gen-site
+bash <(curl -q https://raw.githubusercontent.com/WaveDemure/nitro-thringy/main/auto.sh)
 ```
 and its running at
 ```
